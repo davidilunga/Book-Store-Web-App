@@ -1,48 +1,48 @@
-1	 The Little Prince	 Antoine de Saint-Exupéry	 Adventure	8.99	 A whimsical tale of a young prince exploring the complexities of life and human nature.	 
-2	 She: A History of Adventure	 H. Rider Haggard	 Adventure	8.99	" A Victorian adventure novel narrating the quest for a mysterious African queen, Ayesha, exploring themes of immortality and power."	 
-3	 The Alchemist	 Paulo Coelho	 Adventure	8.99	 A philosophical novel following Santiago's journey to discover his personal legend and the meaning of life through the pursuit of his dreams.	 
-4	 A Tale Of Two Cities	 Charles Dickens	 Classic	6.88	" Set against the backdrop of the French Revolution, Dickens weaves a compelling story of love, sacrifice, and the consequences of social injustice."	 
-5	 Dream Of The Red Chamber	 Cao Xueqin	 Classic	6.88	" A classic Chinese novel portraying the rise and fall of the Jia family, blending realism with supernatural elements."	 
-6	 The Catcher in the Rye	 JD Salinger	 Classic	6.88	 A coming-of-age novel following the rebellious Holden Caulfield as he navigates the challenges of adolescence and society.	 
-7	 And Then There Were None	 Agatha Christie	 Crime	8.94	" A riveting mystery where ten strangers are lured to an island, each accused of a crime, and one by one, they meet their demise."	 
-8	 The Godfather	 Mario Puzo	 Crime	8.94	 A powerful crime novel depicting the Corleone family's rise to power in the world of organized crime.	 
-9	 Gone Girl	 Gillian Flynn	 Crime	8.94	 A psychological thriller exploring the complexities of marriage and deception as a husband becomes the prime suspect in his wife's disappearance.	 
-10	 The Adventures of Pinocchio	 Carlo Collodi	 Fairytale	10.66	" The classic tale of a wooden puppet's quest to become a real boy, facing moral dilemmas and adventures along the way."	 
-11	 Jonathan Livingston Seagull	 Richard Bach	 Fairytale	10.66	" A philosophical novella about a seagull's journey to self-discovery, breaking away from the limitations of his flock."	 
-12	 Harry Potter and the Philosopher's Stone	 JK Rowling	 Fantasy	10.44	" The first book in the iconic series where a young wizard, Harry Potter, discovers his magical heritage and embarks on adventures at Hogwarts School of Witchcraft and Wizardry."	 
-13	 Harry Potter and the Chamber of Secrets	 JK Rowling	 Fantasy	10.44	" Harry's second year at Hogwarts is marked by mysterious attacks on students, a hidden chamber, and the discovery of dark secrets."	 
-14	 Harry Potter and the Prisoner of Azkaban	 JK Rowling	 Fantasy	10.44	" In his third year, Harry learns more about his family's history, encounters dangerous creatures, and confronts the notorious prisoner Sirius Black."	 
-15	 Harry Potter and the Goblet of Fire	 JK Rowling	 Fantasy	10.44	" The Triwizard Tournament brings unexpected challenges, danger, and the return of Lord Voldemort, escalating the wizarding world's tensions."	 
-16	 Harry Potter and the Order of the Phoenix	 JK Rowling	 Fantasy	10.44	" Harry faces skepticism about Voldemort's return, uncovers the prophecy linking their fates, and witnesses the formation of Dumbledore's Army to resist the Dark Arts."	 
-17	 Harry Potter and the Half-Blood Prince	 JK Rowling	 Fantasy	10.44	" As Harry delves into Voldemort's past, he discovers crucial information and experiences personal loss, leading to a dark climax and setting the stage for the final confrontation."	 
-18	 Harry Potter and the Deathly Hallows	 JK Rowling	 Fantasy	10.44	" The epic conclusion sees Harry, Ron, and Hermione on a quest to destroy Horcruxes, facing sacrifices, battles, and the ultimate showdown between good and evil."	 
-19	 The Hobbit	 JRR Tolkien	 Fantasy	10.44	 A fantasy novel following Bilbo Baggins' unexpected journey with dwarves to reclaim treasure guarded by the dragon Smaug.	 
-20	" The Lion, the Witch and the Wardrobe"	 CS Lewis	 Fantasy	10.44	" The first book in The Chronicles of Narnia series, where four siblings discover a magical land and join forces with Aslan to defeat the White Witch."	 
-21	 Ben-Hur: A Tale of the Christ	 Lew Wallace	 Historical Fiction	8.99	" An epic historical novel set against the backdrop of ancient Rome, following the life of Judah Ben-Hur."	 
-22	 The Name of the Rose	 Umberto Eco	 Historical Fiction	8.99	" A historical mystery novel set in an Italian monastery, blending philosophy and theology with a murder investigation."	 
-23	 Flowers in the Attic	 VC Andrews	 Horror	8.89	" A Gothic family saga involving hidden secrets, forbidden love, and dark family dynamics."	 
-24	 Rebecca	 Daphne Du Maurier	 Horror	8.89	" A psychological thriller where the second wife of a wealthy widower is haunted by the memory of his first wife, Rebecca."	 
-25	 Jaws	 Peter Benchley	 Horror	8.89	" A gripping thriller about a coastal town terrorized by a great white shark, and the efforts to stop its deadly attacks."	 
-26	 Animal Farm	 George Orwell	 Comedy	8.89	" An allegorical novella portraying a group of farm animals who rebel against their human farmer, exploring political and societal themes."	 
-27	 Adventures of Huckleberry Finn	 Mark Twain	 Comedy	8.89	" A classic novel following Huck Finn's journey down the Mississippi River, addressing themes of race, morality, and freedom."	 
-28	 The Good Soldier Švejk	 Jaroslav Hašek	 Comedy	8.89	" A satirical novel set during World War I, featuring the antics of a bumbling Czech soldier."	 
-29	 To Kill a Mockingbird	 Harper Lee	 Literary Fiction	8.99	" A powerful exploration of racial injustice and moral growth in the American South, seen through the eyes of a young girl named Scout."	 
-30	 War and Peace	 Leo Tolstoy	 Literary Fiction	8.99	" A sweeping epic that delves into the lives of several aristocratic families during the Napoleonic Wars, exploring themes of love, war, and societal change."	 
-31	 The Da Vinci Code	 Dan Brown	 Mystery	8.99	 A gripping thriller that follows symbologist Robert Langdon as he unravels a complex conspiracy involving secret societies and religious mysteries.	 
-32	 Angels & Demons	 Dan Brown	 Mystery	8.99	" The prequel to The Da Vinci Code, featuring Robert Langdon solving a mystery involving the Illuminati and the Catholic Church."	 
-33	 The Bridges of Madison County	 Robert James Waller	 Romance	12.99	 A romantic novel about a brief but intense love affair between a National Geographic photographer and a lonely Italian-American woman.	 
-34	 Love Story	 Erich Segal	 Romance	12.99	" A poignant love story between a wealthy Harvard student and a working-class Radcliffe student, facing societal and family challenges."	 
-35	 The Fault in Our Stars	 John Green	 Romance	12.99	 A heartbreaking yet uplifting tale of two teenagers with cancer who find love and meaning in their numbered days.	 
-36	 Nineteen Eighty-Four	 George Orwell	 Science Fiction	15.99	" A dystopian novel depicting a totalitarian society ruled by the Party, where individualism is suppressed, and truth is controlled."	 
-37	 Dune	 Frank Herbert	 Science Fiction	15.99	" A science fiction masterpiece set in a distant future where noble houses vie for control over the desert planet Arrakis, the only source of the valuable spice melange."	 
-38	 The Hitchhiker's Guide to the Galaxy	 Douglas Adams	 Science Fiction	15.99	 A comedic science fiction series following the misadventures of Arthur Dent as he travels through space with an eclectic group of companions.	 
-39	 The Eagle Has Landed	 Jack Higgins	 Thriller	8.99	" A World War II thriller where German paratroopers attempt to kidnap Winston Churchill, facing unforeseen challenges."	 
-40	 The Girl on the Train	 Paula Hawkins	 Thriller	8.99	 A psychological thriller featuring an unreliable narrator entangled in a web of deception and murder.	 
-41	 All Quiet on the Western Front	 Eric Maria Remarque	 War	9.99	 A powerful anti-war novel depicting the experiences of German soldiers during World War I.	 
-42	 All the Light We Cannot See	 Anthony Doerr	 War	9.99	 A Pulitzer Prize-winning novel that weaves together the lives of a blind French girl and a young German boy during World War II.	 
-43	 The Diary of Anne Frank	 Anne Frank	 Autobiography	11.99	" The poignant and historic diary of Anne Frank, a Jewish girl hiding from the Nazis during World War II."	 
-44	 Autobiography of a Yogi	 Paramahansa Yogananda	 Autobiography	11.99	 An autobiographical account of Yogananda's spiritual journey and teachings on yoga and meditation.	 
-45	 Wolf Totem	 Jiang Rong	 Autobiography	11.99	 A novel depicting the clash between traditional Mongolian culture and the Chinese government's attempts to modernize.	 
-46	 Helter Skelter	 Curt Gentry and Vincent Bugliosi	 Non-Fiction	9.99	" A true crime account of the Manson Family murders and the subsequent trial, written by the prosecutor."	 
-47	 In Cold Blood	 Truman Capote	 Non-Fiction	9.99	" A pioneering work in the true crime genre, recounting the brutal murders of the Clutter family in Kansas."	 
-48	 Bury My Heart at Wounded Knee	 Dee Brown	 Non-Fiction	9.99	 A historical account of the injustices suffered by Native American tribes during the westward expansion of the United States.	 
+The Little Prince/ Antoine de Saint-Exupéry/ Adventure/ 8.99/ A whimsical tale of a young prince exploring the complexities of life and human nature./ 
+She: A History of Adventure/ H. Rider Haggard/ Adventure/ 8.99/ A Victorian adventure novel narrating the quest for a mysterious African queen, Ayesha, exploring themes of immortality and power./ 
+The Alchemist/ Paulo Coelho/ Adventure/ 8.99/ A philosophical novel following Santiago's journey to discover his personal legend and the meaning of life through the pursuit of his dreams./ 
+A Tale Of Two Cities/ Charles Dickens/ Classic/ 6.88/ Set against the backdrop of the French Revolution, Dickens weaves a compelling story of love, sacrifice, and the consequences of social injustice./ 
+Dream Of The Red Chamber/ Cao Xueqin/ Classic/ 6.88/ A classic Chinese novel portraying the rise and fall of the Jia family, blending realism with supernatural elements./ 
+The Catcher in the Rye/ JD Salinger/ Classic/ 6.88/ A coming-of-age novel following the rebellious Holden Caulfield as he navigates the challenges of adolescence and society./ 
+And Then There Were None/ Agatha Christie/ Crime/ 8.94/ A riveting mystery where ten strangers are lured to an island, each accused of a crime, and one by one, they meet their demise./ 
+The Godfather/ Mario Puzo/ Crime/ 8.94/ A powerful crime novel depicting the Corleone family's rise to power in the world of organized crime./ 
+Gone Girl/ Gillian Flynn/ Crime/ 8.94/ A psychological thriller exploring the complexities of marriage and deception as a husband becomes the prime suspect in his wife's disappearance./ 
+The Adventures of Pinocchio/ Carlo Collodi/ Fairytale/ 10.66/ The classic tale of a wooden puppet's quest to become a real boy, facing moral dilemmas and adventures along the way./ 
+Jonathan Livingston Seagull/ Richard Bach/ Fairytale/ 10.66/ A philosophical novella about a seagull's journey to self-discovery, breaking away from the limitations of his flock./ 
+Harry Potter and the Philosopher's Stone/ JK Rowling/ Fantasy/ 10.44/ The first book in the iconic series where a young wizard, Harry Potter, discovers his magical heritage and embarks on adventures at Hogwarts School of Witchcraft and Wizardry./ 
+Harry Potter and the Chamber of Secrets/ JK Rowling/ Fantasy/ 10.44/ Harry's second year at Hogwarts is marked by mysterious attacks on students, a hidden chamber, and the discovery of dark secrets./ 
+Harry Potter and the Prisoner of Azkaban/ JK Rowling/ Fantasy/ 10.44/ In his third year, Harry learns more about his family's history, encounters dangerous creatures, and confronts the notorious prisoner Sirius Black./ 
+Harry Potter and the Goblet of Fire/ JK Rowling/ Fantasy/ 10.44/ The Triwizard Tournament brings unexpected challenges, danger, and the return of Lord Voldemort, escalating the wizarding world's tensions./ 
+Harry Potter and the Order of the Phoenix/ JK Rowling/ Fantasy/ 10.44/ Harry faces skepticism about Voldemort's return, uncovers the prophecy linking their fates, and witnesses the formation of Dumbledore's Army to resist the Dark Arts./ 
+Harry Potter and the Half-Blood Prince/ JK Rowling/ Fantasy/ 10.44/ As Harry delves into Voldemort's past, he discovers crucial information and experiences personal loss, leading to a dark climax and setting the stage for the final confrontation./ 
+Harry Potter and the Deathly Hallows/ JK Rowling/ Fantasy/ 10.44/ The epic conclusion sees Harry, Ron, and Hermione on a quest to destroy Horcruxes, facing sacrifices, battles, and the ultimate showdown between good and evil./ 
+The Hobbit/ JRR Tolkien/ Fantasy/ 10.44/ A fantasy novel following Bilbo Baggins' unexpected journey with dwarves to reclaim treasure guarded by the dragon Smaug./ 
+The Lion, the Witch and the Wardrobe/ CS Lewis/ Fantasy/ 10.44/ The first book in The Chronicles of Narnia series, where four siblings discover a magical land and join forces with Aslan to defeat the White Witch./ 
+Ben-Hur: A Tale of the Christ/ Lew Wallace/ Historical Fiction/ 8.99/ An epic historical novel set against the backdrop of ancient Rome, following the life of Judah Ben-Hur./ 
+The Name of the Rose/ Umberto Eco/ Historical Fiction/ 8.99/ A historical mystery novel set in an Italian monastery, blending philosophy and theology with a murder investigation./ 
+Flowers in the Attic/ VC Andrews/ Horror/ 8.89/ A Gothic family saga involving hidden secrets, forbidden love, and dark family dynamics./ 
+Rebecca/ Daphne Du Maurier/ Horror/ 8.89/ A psychological thriller where the second wife of a wealthy widower is haunted by the memory of his first wife, Rebecca./ 
+Jaws/ Peter Benchley/ Horror/ 8.89/ A gripping thriller about a coastal town terrorized by a great white shark, and the efforts to stop its deadly attacks./ 
+Animal Farm/ George Orwell/ Comedy/ 8.89/ An allegorical novella portraying a group of farm animals who rebel against their human farmer, exploring political and societal themes./ 
+Adventures of Huckleberry Finn/ Mark Twain/ Comedy/ 8.89/ A classic novel following Huck Finn's journey down the Mississippi River, addressing themes of race, morality, and freedom./ 
+The Good Soldier Švejk/ Jaroslav Hašek/ Comedy/ 8.89/ A satirical novel set during World War I, featuring the antics of a bumbling Czech soldier./ 
+To Kill a Mockingbird/ Harper Lee/ Literary Fiction/ 8.99/ A powerful exploration of racial injustice and moral growth in the American South, seen through the eyes of a young girl named Scout./ 
+War and Peace/ Leo Tolstoy/ Literary Fiction/ 8.99/ A sweeping epic that delves into the lives of several aristocratic families during the Napoleonic Wars, exploring themes of love, war, and societal change./ 
+The Da Vinci Code/ Dan Brown/ Mystery/ 8.99/ A gripping thriller that follows symbologist Robert Langdon as he unravels a complex conspiracy involving secret societies and religious mysteries./ 
+Angels & Demons/ Dan Brown/ Mystery/ 8.99/ The prequel to The Da Vinci Code, featuring Robert Langdon solving a mystery involving the Illuminati and the Catholic Church./ 
+The Bridges of Madison County/ Robert James Waller/ Romance/ 12.99/ A romantic novel about a brief but intense love affair between a National Geographic photographer and a lonely Italian-American woman./ 
+Love Story/ Erich Segal/ Romance/ 12.99/ A poignant love story between a wealthy Harvard student and a working-class Radcliffe student, facing societal and family challenges./ 
+The Fault in Our Stars/ John Green/ Romance/ 12.99/ A heartbreaking yet uplifting tale of two teenagers with cancer who find love and meaning in their numbered days./ 
+Nineteen Eighty-Four/ George Orwell/ Science Fiction/ 15.99/ A dystopian novel depicting a totalitarian society ruled by the Party, where individualism is suppressed, and truth is controlled./ 
+Dune/ Frank Herbert/ Science Fiction/ 15.99/ A science fiction masterpiece set in a distant future where noble houses vie for control over the desert planet Arrakis, the only source of the valuable spice melange./ 
+The Hitchhiker's Guide to the Galaxy/ Douglas Adams/ Science Fiction/ 15.99/ A comedic science fiction series following the misadventures of Arthur Dent as he travels through space with an eclectic group of companions./ 
+The Eagle Has Landed/ Jack Higgins/ Thriller/ 8.99/ A World War II thriller where German paratroopers attempt to kidnap Winston Churchill, facing unforeseen challenges./ 
+The Girl on the Train/ Paula Hawkins/ Thriller/ 8.99/ A psychological thriller featuring an unreliable narrator entangled in a web of deception and murder./ 
+All Quiet on the Western Front/ Eric Maria Remarque/ War/ 9.99/ A powerful anti-war novel depicting the experiences of German soldiers during World War I./ 
+All the Light We Cannot See/ Anthony Doerr/ War/ 9.99/ A Pulitzer Prize-winning novel that weaves together the lives of a blind French girl and a young German boy during World War II./ 
+The Diary of Anne Frank/ Anne Frank/ Autobiography/ 11.99/ The poignant and historic diary of Anne Frank, a Jewish girl hiding from the Nazis during World War II./ 
+Autobiography of a Yogi/ Paramahansa Yogananda/ Autobiography/ 11.99/ An autobiographical account of Yogananda's spiritual journey and teachings on yoga and meditation./ 
+Wolf Totem/ Jiang Rong/ Autobiography/ 11.99/ A novel depicting the clash between traditional Mongolian culture and the Chinese government's attempts to modernize./ 
+Helter Skelter/ Curt Gentry and Vincent Bugliosi/ Non-Fiction/ 9.99/ A true crime account of the Manson Family murders and the subsequent trial, written by the prosecutor./ 
+In Cold Blood/ Truman Capote/ Non-Fiction/ 9.99/ A pioneering work in the true crime genre, recounting the brutal murders of the Clutter family in Kansas./ 
+Bury My Heart at Wounded Knee/ Dee Brown/ Non-Fiction/ 9.99/ A historical account of the injustices suffered by Native American tribes during the westward expansion of the United States./ 
