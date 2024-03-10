@@ -1,0 +1,60 @@
+:root{
+    --brand-color: #0A7ABF;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: .5%;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 2rem;
+    min-width: max-content;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: black;
+    font-weight: 700;
+    transition: ease-in-out 100ms;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-item .nav-dropdown {
+    display:none;
+    position:absolute;
+    border-radius:4px;
+}
+
+.navbar-nav .nav-item:hover .nav-dropdown {
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+.navbar-nav .nav-item .nav-dropdown .dropdown-item {
+    position:relative;
+	width: 100%;
+}
+
+.navbar-nav .nav-item .nav-dropdown .nav-item a {
+    padding:10px 14px;
+	position:relative;
+	border-radius:4px;
+} 
+
+.navbar-nav .dropdown-item {
+    min-width: max-content;
+}

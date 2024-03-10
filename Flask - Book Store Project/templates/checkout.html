@@ -1,0 +1,39 @@
+<!-- templates/checkout.html -->
+
+{% extends 'index.html' %}
+
+{% block content %}
+    <h1>Basket</h1>
+    <p style="text-align: center;">Here what's currently in your Basket.</p>
+    <table class="account-table table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+        </tr>
+        {% for line in range(basket|length) %}
+        <tr>
+            <td>{{ basket[line].title }}</td>
+            <td>{{ basket[line].author }}</td>
+            <td>{{ basket[line].price }}</td>
+            <td>
+                <form action="/checkout/remove/{{ line }}" method="post">
+                    <a href="/checkout/remove/{{ line }}" class="small edit-details-btn button-template-remove" type="submit" style="border-radius: 5px;">Remove</a>
+                </form>
+            </td>
+        {% endfor %}
+    </table>
+    <br>
+    <p style="text-align: center;">Your total is:<br>
+        £{{ total }}
+    </p>
+    <br>
+    <br>
+    <div class="edit-basket">
+        <form action="/checkout/pay-now/" method="post"><!--/add-to-basket/{{ line }}-->
+            <a href="/checkout/pay-now/" class="small edit-details-btn button-template" type="submit" style="border-radius: 5px;">Checkout</a>
+        </form>
+    </div>
+    <!-- Add your search form or other content here -->
+    
+{% endblock %}

@@ -1,0 +1,34 @@
+<!-- templates/order_history.html -->
+
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h1>Order History</h1>
+    <p style="text-align: center;">Here is your Order History.</p>
+    <table class="order-history table table-striped">
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Price</th>
+                <th>Overview</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for line in range(orders|length) %}
+                <tr>
+                    <td>{{ orders[line].rowid }}</td>
+                    <td>{{ orders[line].title }}</td>
+                    <td>{{ orders[line].author }}</td>
+                    <td>{{ orders[line].genre }}</td>
+                    <td>{{ orders[line].price }}</td>
+                    <td>{{ orders[line].overview }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock%}

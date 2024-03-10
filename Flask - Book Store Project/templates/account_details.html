@@ -1,0 +1,30 @@
+
+{% extends 'index.html' %}
+
+{% block content %}
+    <h1>View Account Details</h1>
+    <br>
+    <table class="account-table table table-striped">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Name</td>
+                <td>{{ signed_in_user.fName }} {{ signed_in_user.lName }}</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>{{ signed_in_user.email }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="edit-account">
+        <form action="/account-details/edit-account-details" method="get">
+            <button class="center button-template edit-details-btn btn-spacer">Edit Account Details</button>
+        </form>
+    </div>
+    {% endblock %}

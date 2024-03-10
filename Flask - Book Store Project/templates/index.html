@@ -1,0 +1,68 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modal.css') }}">
+    <title>{% block title %}Book Store{% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light static-top" id="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link avbar-active" href="{{ url_for('home') }}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('book_info') }}">View Book Information</a></li>
+                {% if signed_in != True %}
+                    <li class="nav-item">    
+                        <a class="nav-link" href="#">Account</a>
+                        <ul class="nav-dropdown">
+                            <li class="dropdown-item"><a class="nav-link" href="{{ url_for('log_in') }}">Log In</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="{{ url_for('register') }}">Register</a></li>
+                        </ul>
+                    </li>
+                {% else %}
+                    <li class="nav-item"><a href="{{ url_for('checkout') }}"class="nav-link">Checkout</a></li>
+                    <li class="nav-item"><a href="{{ url_for('order_history') }}"class="nav-link">Order History</a></li>
+                    <li class="nav-item">    
+                        <a class="nav-link">Account</a>
+                        <ul class="nav-dropdown">
+                            <li class="dropdown-item"><a class="nav-link" href="{{ url_for('account_details') }}">Account Details</a></li>
+                            <li class="dropdown-item"><a class="nav-link" href="{{ url_for('logout') }}">Logout</a></li>
+                        </ul>
+                    </li>
+                {% endif %}
+            </ul>
+        
+    </nav>
+
+    <div class="content">
+        <br><br>
+        {% block content %}
+        <h1>Welcome to the Book Store</h1>
+        <br>
+        <div class = "options">
+            <p>Here are a list of features that you can use: </p><br>
+            <a href="{{ url_for('book_info') }}" class="page-navigator">View Book Information</a><br><br>
+            {% if signed_in != True %}
+                <a href="{{ url_for('log_in') }}" class="page-navigator">Log In to your Account</a><br><br>  
+                <a href="{{ url_for('register') }}" class="page-navigator">Register</a><br><br>
+            {% else %}
+                <a href="{{ url_for('checkout') }}" class="page-navigator">Checkout</a><br><br>
+                <a href="{{ url_for('order_history') }}" class="page-navigator">Order History</a><br><br>
+                <a href="{{ url_for('account_details') }}" class="page-navigator">View Account Details</a><br><br>
+                
+            {% endif %}
+        </div>
+        </div>
+        {% endblock %}
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

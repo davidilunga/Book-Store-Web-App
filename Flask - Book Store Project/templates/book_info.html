@@ -1,0 +1,86 @@
+<!-- templates/search_books.html -->
+
+{% extends 'index.html' %}
+
+{% block content %}
+    <h1>Book Information</h1>
+    <p>Here you can search for your favorite books.</p>
+    <!-- Add your search form or other content here -->
+    <div class="container-book-info">
+        <div class="column-book-info">
+            <table class="table table-striped" id="book-table">
+                <thead>
+                    <tr>
+                        <th>Book ID</th>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Price</th>
+                        <th>Overview</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for line in range(books|length) %}
+                        <tr>
+                            <td>{{ books[line].rowid }}</td>
+                            <td>{{ books[line].title }}</td>
+                            <td>{{ books[line].author }}</td>
+                            <td>{{ books[line].genre }}</td>
+                            <td>{{ books[line].price }}</td>
+                            <td>{{ books[line].overview }}</td>
+                            <td>
+                                <form action="/add-to-basket/{{ books[line].rowid }}" method="post"><!--/add-to-basket/{{ line }}-->
+                                    <a href="/add-to-basket/{{ books[line].rowid }}" class="small edit-details-btn button-template" type="submit" style="border-radius: 5px;">Add to Basket</a>
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="column-book-info">
+            <div class="search-container">
+                <form action="{{ url_for("book_info") }}" method="post">
+                    <input type="text" class="search-box" name="book-search" placeholder="Search...">
+                    <!--<button class="search-button" type="submit">Search</button><br>--><button class="button-template-search " type="submit" style="border-radius: 5px;">Search</button><br>
+                </form>
+            </div>
+            <br>
+            <br>
+            <div class="small-basket">
+                <h3 style="text-align: center; font-weight: 700; text-decoration: underline;">Basket</h3>
+                <br>
+                <table class="table table-striped">
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+                    {% for line in range(basket|length) %}
+                    <tr>
+                        <td>{{ basket[line].title }}</td>
+                        <td>{{ basket[line].author }}</td>
+                        <td>{{ basket[line].price }}</td>
+                        <td>
+                            <form action="/book-information/delete/{{ line }}" method="post">
+                                <a href="/book-information/delete/{{ line }}" class="small edit-details-btn button-template-remove" type="submit" style="border-radius: 5px;">Remove</a>
+                            </form>
+                        </td>
+                    {% endfor %}
+                </table>
+                <br>
+                <p style="text-align: center;">Your total is:<br>
+                    £{{ total }}
+                </p>
+                <br>
+                <br>
+                <div class="edit-basket">
+                    <form action="/checkout" method="post"><!--/add-to-basket/{{ line }}-->
+                        <a href="/checkout" class="small edit-details-btn button-template" type="submit" style="border-radius: 5px;">Checkout</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

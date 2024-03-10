@@ -1,0 +1,39 @@
+<!-- templates/log_in.html -->
+
+{% extends 'index.html' %}
+
+{% block content %}
+    <div class="log-in-glass-container">
+        <header>Login</header>
+        <form method="post" action="{{ url_for('log_in') }}">
+            <div class="log-in-field">
+                <input type="text" required id="log-in-username" name="username" placeholder="Email">
+            </div>
+            <div class="log-in-field log-in-space">
+                <input type="password" id="password" class="log-in-pass-key" name="password" required placeholder="Password">
+                <span class="log-in-show">SHOW</span>
+            </div>
+            <div class="log-in-pass log-in-space" style="text-align: center;">
+                Don't have an account?<br><a href="{{ url_for('register') }}">Create one here</a>
+            </div>
+            <div class="log-in-field log-in-space">
+                <input type="submit" value="LOGIN">
+            </div>
+        </form>
+        </div>
+    <script>
+        const pass_field = document.querySelector('.log-in-pass-key');
+        const showBtn = document.querySelector('.log-in-show');
+        showBtn.addEventListener('click', function(){
+            if(pass_field.type === "password"){
+                pass_field.type = "text";
+                showBtn.textContent = "HIDE";
+                showBtn.style.color = "#3498db";
+            }else{
+                pass_field.type = "password";
+                showBtn.textContent = "SHOW";
+                showBtn.style.color = "#222";
+                }
+            });
+    </script>
+{% endblock %}

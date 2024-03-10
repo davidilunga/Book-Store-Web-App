@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.content {
+    padding: 40px;
+}
+
+.options{
+    text-align: center;
+}
+
+.options p{
+    font-size: medium;
+    margin: 10px;
+}
+
+.options a {
+    padding: 10px 0 10px 0;
+    text-decoration: none;
+    color: darkgray;
+}
+
+.options a:hover {
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: black;
+    transition: ease-in-out 100msxs;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*--------------------- Register -------------------------*/
+
+.register {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 800px;
+    transform: translate(-50%,-50%);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border-radius: 5%;
+}
+
+.register header {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+}
+
+.register form {
+    padding: 20px;
+}
+
+.register label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.register input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.register input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/*--------------------- Book Information -------------------------*/
+
+.search-box {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: #4c89af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container-book-info {
+    display: grid;
+    grid-template-columns: auto 400px; /* Two columns with equal width */
+    gap: 20px; /* Gap between columns */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.column-book-info {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.view-books td{
+    padding: 5px 10px
+}
+
+.small-basket table{
+    width: 100%;
+}
+
+/*---------------------------------- View Account Details ------------------------------*/
+
+.account-table {
+    width: max-content;
+    margin: 5px auto 5px auto;
+}
+
+.account-table td, .account-table th{
+    padding: 10px 50px
+}
+
+.edit-details-btn {
+    margin: 5px auto;
+}
+
+.edit-account{
+    width: max-content;
+    margin: 5px auto 5px auto;
+}
+
+.edit-basket{
+    width: max-content;
+    margin: 5px auto 5px auto;
+}
+
+.button-template {
+    padding: 10px 30px 10px 30px;
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-template-remove {
+    padding: 5px 15px 5px 15px;
+    background: #db3434;
+    border: 1px solid #d92626;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-template-search {
+    padding: 10px 20px;
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.btn-spacer{
+    margin-top: 60px;
+}
+/*--------------------- Edit Account Details -------------------------*/
+
+.edit-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 800px;
+    transform: translate(-50%,-50%);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    border-radius: 5%;
+}
+
+/*--------------------- Order History -------------------------*/
+
+.order-history{
+    width: 100;
+    margin: auto 10px;
+}

@@ -1,0 +1,67 @@
+/* Apply styles to the modal backdrop */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Style the modal container */
+.modal {
+    display: none; /* Hide modal by default */
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width if desired */
+}
+
+/* Style the modal content */
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the modal header */
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the modal title */
+.modal-title {
+    margin: 0;
+}
+
+/* Style the modal body */
+.modal-body {
+    padding: 15px;
+}
+
+/* Style the modal footer */
+.modal-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+/* Close button styles */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+/* Style for the backdrop when the modal is open */
+.modal.show {
+    display: block;
+}
